@@ -42,7 +42,7 @@ const capitalizeSentences = function(paragraph)
 4. Create a forward loop starting at index 0, stopping at the parameter’s total length and incrementing once each time the loop runs
 ~~~~ js
 
-  for (let i = 0; i < paragraph.length; i++) 
+  for (let i = 0; i < paragraph.length; i++) {
 
 ~~~~
 5. If the paragraph at the current index of the loop down two spaces is equal to a period or the current index is equal to zero 
@@ -54,7 +54,7 @@ const capitalizeSentences = function(paragraph)
 6. Then add the character in the paragraph at the index uppercased to the result
 ~~~~ js
 
-      { result = result + paragraph[i].toUpperCase(); }
+    result = result + paragraph[i].toUpperCase(); }
 
 ~~~~
 7. Otherwise, lowercase it
@@ -67,7 +67,7 @@ else { result = result + paragraph[i].toLowerCase() }
 9. Return the final result of all the loops
 ~~~~ js
 
-  { return result }
+   return result }
 
 ~~~~
 
