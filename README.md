@@ -45,7 +45,7 @@ const capitalizeSentences = function(paragraph)
   for (let i = 0; i < paragraph.length; i++) 
 
 ~~~~
-5. If the paragraph at the current index of the loop down two spaces is equal to zero or the current index is equal to zero, 
+5. If the paragraph at the current index of the loop down two spaces is equal to a period or the current index is equal to zero 
 ~~~~ js
 
     if (paragraph[i - 2] === '.' || i === 0) 
