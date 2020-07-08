@@ -54,13 +54,13 @@ const capitalizeSentences = function(paragraph)
 6. Then add the character in the paragraph at the index uppercased to the result
 ~~~~ js
 
-    result = result + paragraph[i].toUpperCase(); }
+    {result = result + paragraph[i].toUpperCase();}
 
 ~~~~
 7. Otherwise, lowercase it
 ~~~~ js
 
-else { result = result + paragraph[i].toLowerCase() }
+else {result = result + paragraph[i].toLowerCase()}
 
 ~~~~
 8. Continue the loop
